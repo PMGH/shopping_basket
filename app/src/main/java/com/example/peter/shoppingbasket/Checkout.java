@@ -51,7 +51,7 @@ class Checkout {
 
         double refundAmount = 0;
 
-        // hashmap of items
+        // HashMap of items and their occurrences
         HashMap<Item, Integer> occurrences = new HashMap<>();
 
         for (Item item : items){
